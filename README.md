@@ -1,13 +1,5 @@
 # Online Resume ♥️ React ♥️ GitHub 
 
-## Getting Started
-
-To get started with the project, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Install the necessary dependencies by running `npm install`.
-3. Start the development server by running `npm start`.
-
 ## Features
 
 - Interactive and visually appealing user interface.
@@ -39,13 +31,10 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to the project maintainer at [email@example.com](mailto:email@example.com).
+If you have any questions or suggestions, feel free to reach out to the project maintainer at workingqueue@outlook.com
 
 
-
-
-## Introduction
-
+## Online Resume
 I am a [role/position] with [X years/months] of experience in [specific tech field/industry]. I specialize in [specific technologies, languages, frameworks], and I am passionate about [specific areas of interest or expertise]. This portfolio serves as a comprehensive overview of my professional background, skills, and achievements.
 
 ## Table of Contents
@@ -53,6 +42,7 @@ I am a [role/position] with [X years/months] of experience in [specific tech fie
 - [About Me](#about-me)
 - [Skills](#skills)
 - [Projects](#projects)
+- [Blog Posts](#blogposts)
 - [Experience](#experience)
 - [Education](#education)
 - [Contact](#contact)
@@ -69,25 +59,33 @@ Here, I'll outline my technical skills, including programming languages, framewo
 
 This section showcases some of the key projects I've worked on throughout my career. Each project will include a brief description, technologies used, my role, and any notable achievements or outcomes.
 
+## Blog Posts
+
+This section archives any related articles I have composed and shared in my social networking accounts. Topics varies from pesonal and professional development to sharing my expertise, thoughts, and opinion in the field of financial services and technology. 
+
 ## Experience
 
 I'll detail my professional experience in this section, including my current and previous roles, companies I've worked for, and the responsibilities I've held. I'll also highlight any major accomplishments, contributions, or awards I've received during my career.
 
 ## Education
 
-In this section, I'll provide information about my educational background, including degrees earned, institutions attended, and any relevant certifications or training programs completed.
+In this section, I'll provide information about my educational background, including degree earned, institutions attended, and any relevant certifications or training programs completed.
 
 ## Contact
 
-To get in touch with me, please reach out via [email/LinkedIn/other preferred contact method]. I'm open to discussing new opportunities, collaborations, or simply connecting with fellow professionals in the tech industry.
+To get in touch with me, please reach out via email or visit my Linkedin Profile: www.linkedin.com/in/michaelcque. I'm open to discussing new opportunities, collaborations, or simply connecting with fellow professionals in the tech industry.
 
 ## License
 
 This project is licensed under the [License Name] License - see the [LICENSE](LICENSE) file for details.
 
----
+## Gratitude
 
-Thank you for visiting my portfolio landing page! I look forward to connecting with you and exploring potential opportunities in the tech industry.
+Thank you for visiting my page! I look forward to connecting with you and exploring potential opportunities in the fintech industry.
+
+## Getting Started
+
+To get started with the project, follow these steps:
 
 This project was bootstrapped for you with [Vite](https://vitejs.dev/).
 

@@ -1,4 +1,4 @@
-
+# Online Resume ♥️ React ♥️ GitHub 
 
 ## Getting Started
 
@@ -41,9 +41,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 If you have any questions or suggestions, feel free to reach out to the project maintainer at [email@example.com](mailto:email@example.com).
 
-# Online Resume ♥️ React ♥️ GitHub 
 
-# Professional Portfolio Landing Page
 
 
 ## Introduction

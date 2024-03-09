@@ -29,13 +29,10 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - This project was inspired by the need for modern, interactive online resumes.
 - Special thanks to the React community for providing valuable resources and tools.
 
-## Contact
-
-If you have any questions or suggestions, feel free to reach out to the project maintainer at workingqueue@outlook.com
-
 
 ## Online Resume
-I am a [role/position] with [X years/months] of experience in [specific tech field/industry]. I specialize in [specific technologies, languages, frameworks], and I am passionate about [specific areas of interest or expertise]. This portfolio serves as a comprehensive overview of my professional background, skills, and achievements.
+
+Feel free to explore my repositories and connect! 🚀
 
 ## Table of Contents
 
@@ -73,7 +70,7 @@ In this section, I'll provide information about my educational background, inclu
 
 ## Contact
 
-To get in touch with me, please reach out via email or visit my Linkedin Profile: www.linkedin.com/in/michaelcque. I'm open to discussing new opportunities, collaborations, or simply connecting with fellow professionals in the tech industry.
+To get in touch with me, visit my Linkedin Profile: www.linkedin.com/in/michaelcque. I'm open to discussing new opportunities, collaborations, or simply connecting with fellow professionals in the tech industry. Or if you have any questions or suggestions, feel free to reach out to the project maintainer at workingqueue@outlook.com
 
 ## License
 

@@ -1,6 +1,4 @@
-# Online Resume using React
 
-This project is an online resume built using React, designed to showcase your skills, experience, and projects in a visually appealing and interactive manner.
 
 ## Getting Started
 

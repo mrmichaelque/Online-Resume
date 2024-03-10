@@ -1,0 +1,44 @@
+# This workflow warns and then closes issues and PRs that have had no activity for a specified amount of time.
+#
+# You can adjust the behavior by modifying this file.
+# For more information, see:
+# https://github.com/actions/stale
+name: Mark stale issues and pull requests
+
+on:
+  schedule:
+  - cron: '44 14 * * *'
+
+jobs:
+  stale:
+
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+
+    steps:
+    - uses: actions/stale@v5
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        stale-issue-message: 'Stale issue message'
+        stale-pr-message: 'Stale pull request message'
+        stale-issue-label: 'no-issue-activity'
+        stale-pr-label: 'no-pr-activity'
+
+                    - name: Asana / GitHub Integration
+  # You may pin to the exact commit or the version.
+  # uses: curai/github-asana-action@7a74cf0a8468199e0033599cd4a7f21d90a592ca
+  uses: curai/github-asana-action@v4.5.0
+  with:
+    # Asana Public Access Token
+    asana-pat: 
+    # Prefix before the task i.e ASANA TASK: https://app.asana.com/1/2/3
+    trigger-phrase: 
+    # If provided, this will be added as a comment (with the pull request link) to the Asana task
+    task-comment: # optional
+    # Target section to move tasks into, if possible.
+    target-section: # optional
+    # Set to true if you would like to mark the Asana task as complete
+    mark-complete: # optional
+          

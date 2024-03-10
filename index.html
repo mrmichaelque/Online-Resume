@@ -31,28 +31,33 @@
     </style>
    <title>Interactive Resume</title>
   </head>
+  
   <body>
     <div class="screen-hero-section">
       <div class="text-wrapper">
         <a class="text-wrap">
-          <h5 class="paragraph">Welcome</h5>
-          <header class="heading-wrapper">
-            <h1 class="heading">Online Resume</h1>
-          </header>
-          <p class="paragraph2">
-            Unlock the door to endless possibilities with my skills and
-            expertise.
-          </p>
+            <h5 class="paragraph">Welcome</h5>
+                <header class="heading-wrapper">
+                    <h1>Michael Que</h1>
+                    <p>Project and Program Manager</p>
+                    <h2 class="heading">Online Resume</h2>
+                 </header>
+                <p class="paragraph2">
+                    Unlock the door to endless possibilities with my skills and
+                    expertise.
+                </p>
         </a>
-        <a class="button-wrap">
-          <div class="cta-button">
-            <p class="cta-text">Resume</p>
-          </div>
-          <div class="cta-button2">
-            <p class="cta-text2">Cover Letter</p>
-          </div>
-        </a>
-      </div>
+       <div class="button-wrap">
+  <div class="cta-button">
+    <button onclick="openPdf('resume.pdf')">Resume</button>
+    <p class="cta-text">Resume</p>
+  </div>
+  <div class="cta-button">
+    <button onclick="openPdf('cover_letter.pdf')">Cover Letter</button>
+    <p class="cta-text">View Cover Letter</p>
+  </div>
+</div>
+
       <div class="frame-1000005838">
         <div class="card-item-default">
           <div class="fixed-width">
@@ -379,12 +384,6 @@
       </div>
     </div>
 
-  <header>
-    <h1>Michael Que</h1>
-    <p>Project and Program Manager</p>
-    <button onclick="openPdf('resume.pdf')">View Resume</button>
-    <button onclick="openPdf('cover_letter.pdf')">View Cover Letter</button></br>
-  </header>
   <div class="dropdown">
   <button class="dropbtn">Section 1</button>
   <div class="dropdown-content">

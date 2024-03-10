@@ -1,0 +1,385 @@
+.screen-hero-section,
+.screen-hero-section * {
+  box-sizing: border-box;
+}
+.screen-hero-section {
+  background: #252b42;
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 390px;
+  position: relative;
+}
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.text-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.paragraph {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  opacity: 0.5;
+  position: relative;
+  align-self: stretch;
+}
+.heading-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.heading {
+  color: #f3f3f3;
+  text-align: left;
+  font-family: "Inter-Black", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  position: relative;
+  flex: 1;
+}
+.paragraph2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  opacity: 0.5;
+  position: relative;
+  align-self: stretch;
+}
+.button-wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.cta-button {
+  background: var(--social-media-discord, #5865f2);
+  border-radius: 8px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 150px;
+  height: 100px;
+  min-width: 150px;
+  max-width: 200px;
+  position: relative;
+}
+.cta-text {
+  color: var(--neutral-colors-100, #ffffff);
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  flex: 1;
+}
+.cta-button2 {
+  border-radius: 8px;
+  border-style: solid;
+  border-color: var(--social-media-discord, #5865f2);
+  border-width: 1px;
+  padding: 24px 28px 24px 28px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 150px;
+  height: 100px;
+  min-width: 150px;
+  max-width: 200px;
+  position: relative;
+}
+.cta-text2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Inter-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: relative;
+  flex: 1;
+}
+.frame-1000005838 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.card-item-default {
+  background: var(--social-media-facebook, #1877f2);
+  border-radius: 24px 0px 24px 0px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 165px;
+  height: 233px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.fixed-width {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 22px 19px 22px 19px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 60px;
+  height: 60px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+.draw-pen {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  overflow: visible;
+}
+.h-5 {
+  color: var(--light-text-color, #ffffff);
+  text-align: center;
+  font-family: var(--h5-font-family, "Montserrat-Bold", sans-serif);
+  font-size: var(--h5-font-size, 16px);
+  line-height: var(--h5-line-height, 24px);
+  font-weight: var(--h5-font-weight, 700);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.a {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.h-6 {
+  color: var(--light-text-color, #ffffff);
+  text-align: left;
+  font-family: var(--link-font-family, "Montserrat-Bold", sans-serif);
+  font-size: var(--link-font-size, 14px);
+  line-height: var(--link-line-height, 24px);
+  font-weight: var(--link-font-weight, 700);
+  position: relative;
+}
+.icon-arrow-next {
+  flex-shrink: 0;
+  width: 9px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.card-item-variant-4 {
+  background: var(--social-media-twitter, #1da1f2);
+  border-radius: 24px 0px 24px 0px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  width: 154px;
+  height: 202px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.fixed-width2 {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 22px 19px 22px 19px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 90px;
+  height: 90px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+.skills {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  overflow: visible;
+}
+.h-52 {
+  color: var(--light-text-color, #ffffff);
+  text-align: center;
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 700;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon-arrow-next2 {
+  flex-shrink: 0;
+  width: 9px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.card-item-variant-3 {
+  background: var(--social-media-verified, #2c96ff);
+  border-radius: 24px 0px 24px 0px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 166px;
+  height: 213px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.fixed-width3 {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 22px 19px 22px 19px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+.certificate {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  overflow: visible;
+}
+.h-62 {
+  color: var(--light-text-color, #ffffff);
+  text-align: left;
+  font-family: var(--h5-font-family, "Montserrat-Bold", sans-serif);
+  font-size: var(--h5-font-size, 16px);
+  line-height: var(--h5-line-height, 24px);
+  font-weight: var(--h5-font-weight, 700);
+  position: relative;
+}
+.icon-arrow-next3 {
+  flex-shrink: 0;
+  width: 9px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}
+.card-item-variant-2 {
+  background: var(--social-media-behance, #205bf6);
+  border-radius: 24px 0px 24px 0px;
+  padding: 8px 16px 8px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 177px;
+  height: 239px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.fixed-width4 {
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 22px 19px 22px 19px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+}
+.card-account-phone {
+  flex-shrink: 0;
+  width: 45px;
+  height: 45px;
+  position: relative;
+  overflow: visible;
+}
+.icon-arrow-next4 {
+  flex-shrink: 0;
+  width: 9px;
+  height: 16px;
+  position: relative;
+  overflow: visible;
+}

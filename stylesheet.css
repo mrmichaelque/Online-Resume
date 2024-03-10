@@ -1,3 +1,6 @@
+Here's the combined CSS code:
+
+```css
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -54,3 +57,236 @@ h3 {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
+.screen-hero-section,
+.screen-hero-section * {
+  box-sizing: border-box;
+}
+
+.screen-hero-section {
+  background: #252b42;
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 390px;
+  position: relative;
+}
+
+.text-wrapper,
+.text-wrap,
+.heading-wrapper,
+.button-wrap,
+.frame-1000005838 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.text-wrap {
+  align-items: flex-end;
+}
+
+.paragraph,
+.heading,
+.paragraph2,
+.cta-text,
+.cta-text2,
+.h-5,
+.h-52,
+.h-62 {
+  color: #ffffff;
+  text-align: left;
+  position: relative;
+}
+
+.paragraph,
+.paragraph2 {
+  font-family: "Inter-Regular", sans-serif;
+}
+
+.heading,
+.h-5,
+.h-52,
+.h-62 {
+  font-family: "Inter-Black", sans-serif;
+}
+
+.cta-text,
+.cta-text2 {
+  font-family: "Inter-Bold", sans-serif;
+}
+
+.h-5,
+.h-52,
+.h-62 {
+  text-align: center;
+}
+
+.paragraph {
+  font-size: 32px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.paragraph2 {
+  font-size: 24px;
+  font-weight: 400;
+  opacity: 0.5;
+}
+
+.cta-button,
+.cta-button2,
+.card-item-default,
+.card-item-variant-4,
+.card-item-variant-3,
+.card-item-variant-2,
+.fixed-width,
+.fixed-width2,
+.fixed-width3,
+.fixed-width4,
+.card-account-phone {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-button,
+.cta-button2 {
+  background: var(--social-media-discord, #5865f2);
+  border-radius: 8px;
+  padding: 24px;
+  width: 150px;
+  height: 100px;
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.cta-button2 {
+  border-style: solid;
+  border-color: var(--social-media-discord, #5865f2);
+  border-width: 1px;
+}
+
+.card-item-default,
+.card-item-variant-4,
+.card-item-variant-3,
+.card-item-variant-2 {
+  padding: 8px 16px;
+  background: #1877f2; /* Facebook */
+  border-radius: 24px 0px 24px 0px;
+  width: 165px; /* Default */
+  height: 233px; /* Default */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+.card-item-default:hover,
+.card-item-variant-4:hover,
+.card-item-variant-3:hover,
+.card-item-variant-2:hover {
+  transform: translateY(-5px); /* Example transform */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Example box-shadow */
+}
+
+.card-item-variant-4 {
+  background: #1da1f2; /* Twitter */
+  width: 154px;
+  height: 202px;
+}
+
+.card-item-variant-3 {
+  background: #2c96ff; /* Verified */
+  width: 166px;
+  height: 213px;
+}
+
+.card-item-variant-2 {
+  background: #205bf6; /* Behance */
+  width: 177px;
+  height: 239px;
+}
+
+.fixed-width,
+.fixed-width2,
+.fixed-width3,
+.fixed-width4 {
+  padding: 22px 19px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  width: 60px; /* Default */
+  height: 60px; /* Default */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+.fixed-width2 {
+  width: 90px;
+  height: 90px;
+}
+
+.fixed-width3 {
+  width: 80px;
+  height: 80px;
+}
+
+.fixed-width4 {
+  width: 70px;
+  height: 70px;
+}
+
+.icon-arrow-next,
+.icon-arrow-next2,
+.icon-arrow-next3,
+.icon-arrow-next4,
+.draw-pen,
+.skills,
+.certificate,
+.card-account-phone {
+  flex-shrink: 0;
+  width: 50px; /* Default */
+  height: 50px; /* Default */
+  position: relative;
+  overflow: visible;
+}
+
+.icon-arrow-next,
+.icon-arrow-next2,
+.icon-arrow-next3,
+.icon-arrow-next4 {
+  width: 9px;
+  height: 16px;
+}
+
+.h-5,
+.h-52,
+.h-62 {
+  font-family: var(--h5-font-family, "Montserrat-Bold", sans-serif);
+  font-size: var(--h5-font-size, 16px);
+  line-height: var(--h5-line-height, 24px);
+  font-weight: var(--h5-font-weight, 700);
+}
+
+.h-6 {
+  font-family: var(--link-font-family, "Montserrat-Bold", sans-serif);
+  font-size: var(--link-font-size, 14px);
+  line-height: var(--link-line-height, 24px);
+  font-weight: var(--link-font-weight, 700);
+}
+```
+
+This code combines the provided CSS rules while ensuring their specificity is retained.

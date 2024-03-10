@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  
+    <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./vars.css" />
     <link rel="stylesheet" href="./style.css" />
-
     <style>
       a,
       button,
@@ -29,7 +29,7 @@
         -webkit-font-smoothing: antialiased;
       }
     </style>
-    <title>Document</title>
+   <title>Interactive Resume</title>
   </head>
   <body>
     <div class="screen-hero-section">
@@ -378,5 +378,80 @@
         </div>
       </div>
     </div>
-  </body>
+
+  <header>
+    <h1>Michael Que</h1>
+    <p>Project and Program Manager</p>
+    <button onclick="openPdf('resume.pdf')">View Resume</button>
+    <button onclick="openPdf('cover_letter.pdf')">View Cover Letter</button></br>
+  </header>
+  <div class="dropdown">
+  <button class="dropbtn">Section 1</button>
+  <div class="dropdown-content">
+    <p>Content for Section 1</p>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Experience</button>
+  <div class="dropdown-content">
+    <p>Experience 1</p>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Credentials</button>
+  <div class="dropdown-content">
+    <p>Licence 1</p>
+  </div>
+</div>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>JavaScript</li>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>React</li>
+      <li>Node.js</li>
+    </ul>
+  </section>
+  
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="job">
+      <h3>ABC Company</h3>
+      <p>Senior Software Developer</p>
+      <p>2018 - Present</p>
+    </div>
+    <div class="job">
+      <h3>XYZ Inc.</h3>
+      <p>Software Developer</p>
+      <p>2015 - 2018</p>
+    </div>
+  </section>
+  
+  <section id="education">
+    <h2>Education</h2>
+    <div class="education">
+      <h3>University of ABC</h3>
+      <p>Bachelor's in Computer Science</p>
+      <p>2011 - 2015</p>
+    </div>
+  </section>
+  
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Description of Project 1</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Description of Project 2</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
 </html>

@@ -19,7 +19,7 @@ jobs:
 
     steps:
     - uses: actions/stale@v5
-      with:
+      with: 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
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         stale-issue-message: 'Stale issue message'
         stale-pr-message: 'Stale pull request message'
@@ -30,7 +30,7 @@ jobs:
   # You may pin to the exact commit or the version.
   # uses: curai/github-asana-action@7a74cf0a8468199e0033599cd4a7f21d90a592ca
   uses: curai/github-asana-action@v4.5.0
-  with:
+  with: 
     # Asana Public Access Token
     asana-pat: 
     # Prefix before the task i.e ASANA TASK: https://app.asana.com/1/2/3
